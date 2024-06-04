@@ -39,5 +39,7 @@ npm install
 
 - [Package types](documentation/package-types.md)
 - [Assertions](documentation/assertions.md)
+- [Module creation](documentation/module-creation.md)
+- [Cucumber](documentation/cucumber.md)
 
 <!-- jhipster-needle-documentation -->

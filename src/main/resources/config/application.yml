@@ -4,8 +4,16 @@ spring:
   threads:
     virtual:
       enabled: true
+  jackson:
+    default-property-inclusion: non_null
 logging:
   level:
     com:
       mycompany:
         myapp: INFO
+jhlite-hidden-resources:
+  tags: banner
+  # Disable the modules and its dependencies by slugs
+  slugs: custom-jhlite
+server:
+  port: 8080
