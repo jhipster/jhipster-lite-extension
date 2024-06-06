@@ -1,4 +1,4 @@
-package com.mycompany.myapp.generator.server.springboot.banner.domain.infrastructure.primary;
+package com.mycompany.myapp.server.springboot.banner.domain.infrastructure.primary;
 
 import static com.mycompany.myapp.slug.domain.MyAppModuleSlug.*;
 import static com.mycompany.myapp.slug.domain.MyAppFeatureSlug.*;

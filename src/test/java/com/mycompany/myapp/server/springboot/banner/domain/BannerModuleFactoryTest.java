@@ -1,4 +1,4 @@
-package com.mycompany.myapp.generator.server.springboot.banner.domain;
+package com.mycompany.myapp.server.springboot.banner.domain;
 
 import static tech.jhipster.lite.module.domain.JHipsterModulesFixture.*;
 import static tech.jhipster.lite.module.infrastructure.secondary.JHipsterModulesAssertions.*;
