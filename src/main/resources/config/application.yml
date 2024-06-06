@@ -12,7 +12,6 @@ logging:
       mycompany:
         myapp: INFO
 jhlite-hidden-resources:
-  tags: banner
   # Disable the modules and its dependencies by slugs
   slugs: custom-jhlite
 server:
