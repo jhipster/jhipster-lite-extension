@@ -9,9 +9,9 @@ import tech.jhipster.lite.UnitTest;
 import tech.jhipster.lite.module.domain.JHipsterModule;
 
 @UnitTest
-class BannerModuleFactoryTest {
+class BannerModuleExtensionFactoryTest {
 
-  private static final BannerModuleFactory factory = new BannerModuleFactory();
+  private static final BannerModuleExtensionFactory factory = new BannerModuleExtensionFactory();
   private static final String BANNER_TXT = "src/main/resources/banner.txt";
 
   @Test
