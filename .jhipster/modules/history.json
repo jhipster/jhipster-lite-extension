@@ -1,111 +1,134 @@
 {
-  "actions" : [ {
-    "module" : "init",
-    "date" : "2024-06-04T14:50:37.819463965Z",
-    "properties" : {
-      "packageName" : "com.mycompany.myapp",
-      "projectName" : "JHipster Sample Application",
-      "baseName" : "jhipsterSampleApplication",
-      "serverPort" : 8080,
-      "endOfLine" : "lf",
-      "indentSize" : 2,
-      "springConfigurationFormat" : "yaml"
+  "actions": [
+    {
+      "module": "init",
+      "date": "2024-06-04T14:50:37.819463965Z",
+      "properties": {
+        "packageName": "com.mycompany.myapp",
+        "projectName": "JHipster Sample Application",
+        "baseName": "jhipsterSampleApplication",
+        "serverPort": 8080,
+        "endOfLine": "lf",
+        "indentSize": 2,
+        "springConfigurationFormat": "yaml"
+      }
+    },
+    {
+      "module": "maven-java",
+      "date": "2024-06-04T14:50:37.902634737Z",
+      "properties": {
+        "packageName": "com.mycompany.myapp",
+        "projectName": "JHipster Sample Application",
+        "baseName": "jhipsterSampleApplication",
+        "serverPort": 8080,
+        "endOfLine": "lf",
+        "indentSize": 2,
+        "springConfigurationFormat": "yaml"
+      }
+    },
+    {
+      "module": "java-base",
+      "date": "2024-06-04T14:50:38.009320716Z",
+      "properties": {
+        "packageName": "com.mycompany.myapp",
+        "projectName": "JHipster Sample Application",
+        "baseName": "jhipsterSampleApplication",
+        "serverPort": 8080,
+        "endOfLine": "lf",
+        "indentSize": 2,
+        "springConfigurationFormat": "yaml"
+      }
+    },
+    {
+      "module": "maven-wrapper",
+      "date": "2024-06-04T14:50:38.131151735Z",
+      "properties": {
+        "packageName": "com.mycompany.myapp",
+        "projectName": "JHipster Sample Application",
+        "baseName": "jhipsterSampleApplication",
+        "serverPort": 8080,
+        "endOfLine": "lf",
+        "indentSize": 2,
+        "springConfigurationFormat": "yaml"
+      }
+    },
+    {
+      "module": "spring-boot",
+      "date": "2024-06-04T14:50:38.249816266Z",
+      "properties": {
+        "packageName": "com.mycompany.myapp",
+        "projectName": "JHipster Sample Application",
+        "baseName": "jhipsterSampleApplication",
+        "serverPort": 8080,
+        "endOfLine": "lf",
+        "indentSize": 2,
+        "springConfigurationFormat": "yaml"
+      }
+    },
+    {
+      "module": "custom-jhlite",
+      "date": "2024-06-04T14:50:38.415852411Z",
+      "properties": {
+        "packageName": "com.mycompany.myapp",
+        "projectName": "JHipster Sample Application",
+        "baseName": "jhipsterSampleApplication",
+        "serverPort": 8080,
+        "endOfLine": "lf",
+        "indentSize": 2,
+        "springConfigurationFormat": "yaml"
+      }
+    },
+    {
+      "module": "prettier",
+      "date": "2024-06-06T15:50:40.641527203Z",
+      "properties": {
+        "endOfLine": "lf",
+        "springConfigurationFormat": "yaml",
+        "packageName": "com.mycompany.myapp",
+        "projectName": "JHipster Sample Application",
+        "serverPort": 8080,
+        "indentSize": 2,
+        "baseName": "jhipsterSampleApplication"
+      }
+    },
+    {
+      "module": "renovate",
+      "date": "2024-06-06T22:18:17.949894476Z",
+      "properties": {
+        "endOfLine": "lf",
+        "springConfigurationFormat": "yaml",
+        "packageName": "com.mycompany.myapp",
+        "projectName": "JHipster Sample Application",
+        "serverPort": 8080,
+        "indentSize": 2,
+        "baseName": "jhipsterSampleApplication"
+      }
+    },
+    {
+      "module": "github-actions-maven",
+      "date": "2024-06-06T22:19:59.384183601Z",
+      "properties": {
+        "endOfLine": "lf",
+        "springConfigurationFormat": "yaml",
+        "packageName": "com.mycompany.myapp",
+        "projectName": "JHipster Sample Application",
+        "serverPort": 8080,
+        "indentSize": 2,
+        "baseName": "jhipsterSampleApplication"
+      }
+    },
+    {
+      "module": "prettier",
+      "date": "2024-06-07T11:45:31.787038734Z",
+      "properties": {
+        "endOfLine": "lf",
+        "springConfigurationFormat": "yaml",
+        "packageName": "com.mycompany.myapp",
+        "projectName": "JHipster Sample Application",
+        "serverPort": 8080,
+        "indentSize": 2,
+        "baseName": "jhipsterSampleApplication"
+      }
     }
-  }, {
-    "module" : "maven-java",
-    "date" : "2024-06-04T14:50:37.902634737Z",
-    "properties" : {
-      "packageName" : "com.mycompany.myapp",
-      "projectName" : "JHipster Sample Application",
-      "baseName" : "jhipsterSampleApplication",
-      "serverPort" : 8080,
-      "endOfLine" : "lf",
-      "indentSize" : 2,
-      "springConfigurationFormat" : "yaml"
-    }
-  }, {
-    "module" : "java-base",
-    "date" : "2024-06-04T14:50:38.009320716Z",
-    "properties" : {
-      "packageName" : "com.mycompany.myapp",
-      "projectName" : "JHipster Sample Application",
-      "baseName" : "jhipsterSampleApplication",
-      "serverPort" : 8080,
-      "endOfLine" : "lf",
-      "indentSize" : 2,
-      "springConfigurationFormat" : "yaml"
-    }
-  }, {
-    "module" : "maven-wrapper",
-    "date" : "2024-06-04T14:50:38.131151735Z",
-    "properties" : {
-      "packageName" : "com.mycompany.myapp",
-      "projectName" : "JHipster Sample Application",
-      "baseName" : "jhipsterSampleApplication",
-      "serverPort" : 8080,
-      "endOfLine" : "lf",
-      "indentSize" : 2,
-      "springConfigurationFormat" : "yaml"
-    }
-  }, {
-    "module" : "spring-boot",
-    "date" : "2024-06-04T14:50:38.249816266Z",
-    "properties" : {
-      "packageName" : "com.mycompany.myapp",
-      "projectName" : "JHipster Sample Application",
-      "baseName" : "jhipsterSampleApplication",
-      "serverPort" : 8080,
-      "endOfLine" : "lf",
-      "indentSize" : 2,
-      "springConfigurationFormat" : "yaml"
-    }
-  }, {
-    "module" : "custom-jhlite",
-    "date" : "2024-06-04T14:50:38.415852411Z",
-    "properties" : {
-      "packageName" : "com.mycompany.myapp",
-      "projectName" : "JHipster Sample Application",
-      "baseName" : "jhipsterSampleApplication",
-      "serverPort" : 8080,
-      "endOfLine" : "lf",
-      "indentSize" : 2,
-      "springConfigurationFormat" : "yaml"
-    }
-  }, {
-    "module" : "prettier",
-    "date" : "2024-06-06T15:50:40.641527203Z",
-    "properties" : {
-      "endOfLine" : "lf",
-      "springConfigurationFormat" : "yaml",
-      "packageName" : "com.mycompany.myapp",
-      "projectName" : "JHipster Sample Application",
-      "serverPort" : 8080,
-      "indentSize" : 2,
-      "baseName" : "jhipsterSampleApplication"
-    }
-  }, {
-    "module" : "renovate",
-    "date" : "2024-06-06T22:18:17.949894476Z",
-    "properties" : {
-      "endOfLine" : "lf",
-      "springConfigurationFormat" : "yaml",
-      "packageName" : "com.mycompany.myapp",
-      "projectName" : "JHipster Sample Application",
-      "serverPort" : 8080,
-      "indentSize" : 2,
-      "baseName" : "jhipsterSampleApplication"
-    }
-  }, {
-    "module" : "github-actions-maven",
-    "date" : "2024-06-06T22:19:59.384183601Z",
-    "properties" : {
-      "endOfLine" : "lf",
-      "springConfigurationFormat" : "yaml",
-      "packageName" : "com.mycompany.myapp",
-      "projectName" : "JHipster Sample Application",
-      "serverPort" : 8080,
-      "indentSize" : 2,
-      "baseName" : "jhipsterSampleApplication"
-    }
-  } ]
+  ]
 }
