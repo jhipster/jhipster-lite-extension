@@ -1,6 +1,6 @@
 package com.mycompany.myapp.server.springboot.banner.domain.infrastructure.primary;
 
-import static com.mycompany.myapp.slug.domain.MyAppFeatureSlug.*;
+import static com.mycompany.myapp.slug.domain.JHliteExtensionFeatureSlug.*;
 import static com.mycompany.myapp.slug.domain.MyAppModuleSlug.*;
 
 import com.mycompany.myapp.server.springboot.banner.domain.application.BannerApplicationExtensionService;
