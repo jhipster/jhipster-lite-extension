@@ -1,11 +1,11 @@
 package com.mycompany.myapp.server.springboot.banner.domain.infrastructure.primary;
 
-import static com.mycompany.myapp.slug.domain.MyAppModuleSlug.*;
 import static com.mycompany.myapp.slug.domain.MyAppFeatureSlug.*;
+import static com.mycompany.myapp.slug.domain.MyAppModuleSlug.*;
 
+import com.mycompany.myapp.server.springboot.banner.domain.application.BannerApplicationExtensionService;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
-import tech.jhipster.lite.generator.server.springboot.banner.application.BannerApplicationService;
 import tech.jhipster.lite.module.domain.resource.JHipsterModuleOrganization;
 import tech.jhipster.lite.module.domain.resource.JHipsterModuleResource;
 
@@ -19,7 +19,7 @@ class BannerModuleExtensionConfiguration {
   private static final String BANNER_TAG = "banner";
 
   @Bean
-  JHipsterModuleResource jhipsterV7BannerExtensionResource(BannerApplicationService banners) {
+  JHipsterModuleResource jhipsterV7BannerExtensionResource(BannerApplicationExtensionService banners) {
     return JHipsterModuleResource.builder()
       .slug(BANNER_JHIPSTER_V7)
       .withoutProperties()
@@ -30,7 +30,7 @@ class BannerModuleExtensionConfiguration {
   }
 
   @Bean
-  JHipsterModuleResource jhipsterV7ReactBannerExtensionResource(BannerApplicationService banners) {
+  JHipsterModuleResource jhipsterV7ReactBannerExtensionResource(BannerApplicationExtensionService banners) {
     return JHipsterModuleResource.builder()
       .slug(BANNER_JHIPSTER_V7_REACT)
       .withoutProperties()
@@ -41,7 +41,7 @@ class BannerModuleExtensionConfiguration {
   }
 
   @Bean
-  JHipsterModuleResource jhipsterV7VueBannerExtensionResource(BannerApplicationService banners) {
+  JHipsterModuleResource jhipsterV7VueBannerExtensionResource(BannerApplicationExtensionService banners) {
     return JHipsterModuleResource.builder()
       .slug(BANNER_JHIPSTER_V7_VUE)
       .withoutProperties()
@@ -52,7 +52,7 @@ class BannerModuleExtensionConfiguration {
   }
 
   @Bean
-  JHipsterModuleResource jhipsterV2BannerExtensionResource(BannerApplicationService banners) {
+  JHipsterModuleResource jhipsterV2BannerExtensionResource(BannerApplicationExtensionService banners) {
     return JHipsterModuleResource.builder()
       .slug(BANNER_JHIPSTER_V2)
       .withoutProperties()
@@ -63,7 +63,7 @@ class BannerModuleExtensionConfiguration {
   }
 
   @Bean
-  JHipsterModuleResource jhipsterV3BannerExtensionResource(BannerApplicationService banners) {
+  JHipsterModuleResource jhipsterV3BannerExtensionResource(BannerApplicationExtensionService banners) {
     return JHipsterModuleResource.builder()
       .slug(BANNER_JHIPSTER_V3)
       .withoutProperties()
@@ -74,6 +74,9 @@ class BannerModuleExtensionConfiguration {
   }
 
   private JHipsterModuleOrganization organization() {
-    return JHipsterModuleOrganization.builder().feature(BANNER).addDependency(tech.jhipster.lite.generator.slug.domain.JHLiteModuleSlug.SPRING_BOOT).build();
+    return JHipsterModuleOrganization.builder()
+      .feature(BANNER)
+      .addDependency(tech.jhipster.lite.generator.slug.domain.JHLiteModuleSlug.SPRING_BOOT)
+      .build();
   }
 }
