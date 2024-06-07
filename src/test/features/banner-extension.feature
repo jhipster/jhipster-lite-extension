@@ -1,5 +1,4 @@
-@mySpecificTest
-Feature: Banner Extension
+Feature: Banner Module
 
   Scenario: Should add banner JHipster v7
     When I apply "banner-jhipster-v7-extension" module to default project without parameters
