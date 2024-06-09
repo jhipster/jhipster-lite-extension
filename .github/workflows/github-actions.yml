@@ -30,4 +30,20 @@ jobs:
       - name: 'Test: run tests'
         run: |
           chmod +x mvnw
-          ./mvnw clean verify
+          ./mvnw clean package
+      - name: 'Test: generate sample app'
+        run: |
+          ./tests-ci/start.sh
+          ./tests-ci/generate.sh fullapp maven yaml
+          ./tests-ci/stop.sh
+      - name: 'Test: verify generated sample app'
+        working-directory: /tmp/jhlite/fullapp/
+        run: |
+          if [ -f 'mvnw' ]; then
+            ./mvnw clean verify
+          elif [ -f 'gradlew' ]; then
+            ./gradlew clean build --no-daemon --info
+          else
+            npm install
+            npm test
+          fi
