@@ -33,7 +33,7 @@ jobs:
           ./mvnw clean package
       - name: 'Test: generate sample app'
         run: |
-          ./tests-ci/start.sh 7471
+          ./tests-ci/start.sh
           ./tests-ci/generate.sh fullapp maven yaml
           ./tests-ci/stop.sh
       - name: 'Test: verify generated sample app'
