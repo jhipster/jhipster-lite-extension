@@ -31,3 +31,20 @@ jobs:
         run: |
           chmod +x mvnw
           ./mvnw clean verify
+      - name: 'Test: generate sample app'
+        working-directory: ./tests-ci/
+        run: |
+          ./start.sh 7471
+          ./generate.sh fullapp maven yaml
+          ./stop.sh
+      - name: 'Test: verify generated sample app'
+        working-directory: /tmp/jhlite/fullapp/
+        run: |
+          if [ -f 'mvnw' ]; then
+            ./mvnw clean verify
+          elif [ -f 'gradlew' ]; then
+            ./gradlew clean build --no-daemon --info
+          else
+            npm install
+            npm test
+          fi
