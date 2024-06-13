@@ -56,6 +56,10 @@ init_server() {
 if [[ $application == 'fullapp' ]]; then
   init_server
   # apply here your custom modules
+  applyModules \
+    "java-base" \
+    "spring-boot" \
+    "banner-jhipster-v7-extension" \
 
 else
   echo "*** Unknown configuration..."
