@@ -1,9 +1,9 @@
-package com.mycompany.myapp.generator.server.springboot.banner.domain.infrastructure.primary;
+package com.mycompany.myapp.generator.server.springboot.banner.infrastructure.primary;
 
 import static com.mycompany.myapp.shared.slug.domain.JHLiteSampleExtensionFeatureSlug.*;
 import static com.mycompany.myapp.shared.slug.domain.JHLiteSampleExtensionModuleSlug.*;
 
-import com.mycompany.myapp.generator.server.springboot.banner.domain.application.BannerApplicationExtensionService;
+import com.mycompany.myapp.generator.server.springboot.banner.application.BannerApplicationExtensionService;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import tech.jhipster.lite.module.domain.resource.JHipsterModuleOrganization;
