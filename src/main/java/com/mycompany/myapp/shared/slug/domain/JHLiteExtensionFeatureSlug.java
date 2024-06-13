@@ -1,4 +1,4 @@
-package com.mycompany.myapp.slug.domain;
+package com.mycompany.myapp.shared.slug.domain;
 
 import tech.jhipster.lite.module.domain.resource.JHipsterFeatureSlugFactory;
 

@@ -1,4 +1,4 @@
-package com.mycompany.myapp.slug.domain;
+package com.mycompany.myapp.shared.slug.domain;
 
 import java.util.Map;
 import java.util.Optional;
