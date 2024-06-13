@@ -1,4 +1,4 @@
-package com.mycompany.myapp.server.springboot.banner.domain.application;
+package com.mycompany.myapp.generator.server.springboot.banner.domain.application;
 
 import org.springframework.stereotype.Service;
 import tech.jhipster.lite.generator.server.springboot.banner.domain.BannerModuleFactory;

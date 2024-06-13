@@ -3,6 +3,7 @@ package com.mycompany.myapp.server.springboot.banner.domain;
 import static tech.jhipster.lite.module.domain.JHipsterModulesFixture.*;
 import static tech.jhipster.lite.module.infrastructure.secondary.JHipsterModulesAssertions.*;
 
+import com.mycompany.myapp.generator.server.springboot.banner.domain.BannerModuleExtensionFactory;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 import tech.jhipster.lite.UnitTest;
