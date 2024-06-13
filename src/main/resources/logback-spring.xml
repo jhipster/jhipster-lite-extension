@@ -24,7 +24,7 @@
   </appender>
   -->
 
-  <logger name="com.mycompany.myapp" level="INFO" />
+  <logger name="tech.jhipster.lite.extension" level="INFO" />
 
   <logger name="ch.qos.logback" level="WARN" />
   <logger name="com.sun" level="WARN" />

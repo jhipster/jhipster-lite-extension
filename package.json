@@ -1,8 +1,8 @@
 {
-  "name": "jhipster-sample-application",
+  "name": "jhlite-extension-sample",
   "version": "0.0.0",
   "private": true,
-  "description": "JHipster Sample Application",
+  "description": "JHLite Extension Sample",
   "license": "UNLICENSED",
   "scripts": {
     "prepare": "husky",
