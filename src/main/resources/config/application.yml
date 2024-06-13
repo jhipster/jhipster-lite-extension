@@ -8,9 +8,10 @@ spring:
     default-property-inclusion: non_null
 logging:
   level:
-    com:
-      mycompany:
-        myapp: INFO
+    tech:
+      jhipster:
+        lite:
+          extension: INFO
 jhlite-hidden-resources:
   # Disable the modules and its dependencies by slugs
   slugs: custom-jhlite

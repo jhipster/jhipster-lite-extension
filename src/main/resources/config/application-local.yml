@@ -1,5 +1,6 @@
 logging:
   level:
-    com:
-      mycompany:
-        myapp: DEBUG
+    tech:
+      jhipster:
+        lite:
+          extension: DEBUG

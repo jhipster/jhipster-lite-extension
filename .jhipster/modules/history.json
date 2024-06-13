@@ -4,7 +4,7 @@
       "module": "init",
       "date": "2024-06-04T14:50:37.819463965Z",
       "properties": {
-        "packageName": "com.mycompany.myapp",
+        "packageName": "tech.jhipster.lite.extension",
         "projectName": "JHipster Sample Application",
         "baseName": "jhipsterSampleApplication",
         "serverPort": 8080,
@@ -17,7 +17,7 @@
       "module": "maven-java",
       "date": "2024-06-04T14:50:37.902634737Z",
       "properties": {
-        "packageName": "com.mycompany.myapp",
+        "packageName": "tech.jhipster.lite.extension",
         "projectName": "JHipster Sample Application",
         "baseName": "jhipsterSampleApplication",
         "serverPort": 8080,
@@ -30,7 +30,7 @@
       "module": "java-base",
       "date": "2024-06-04T14:50:38.009320716Z",
       "properties": {
-        "packageName": "com.mycompany.myapp",
+        "packageName": "tech.jhipster.lite.extension",
         "projectName": "JHipster Sample Application",
         "baseName": "jhipsterSampleApplication",
         "serverPort": 8080,
@@ -43,7 +43,7 @@
       "module": "maven-wrapper",
       "date": "2024-06-04T14:50:38.131151735Z",
       "properties": {
-        "packageName": "com.mycompany.myapp",
+        "packageName": "tech.jhipster.lite.extension",
         "projectName": "JHipster Sample Application",
         "baseName": "jhipsterSampleApplication",
         "serverPort": 8080,
@@ -56,7 +56,7 @@
       "module": "spring-boot",
       "date": "2024-06-04T14:50:38.249816266Z",
       "properties": {
-        "packageName": "com.mycompany.myapp",
+        "packageName": "tech.jhipster.lite.extension",
         "projectName": "JHipster Sample Application",
         "baseName": "jhipsterSampleApplication",
         "serverPort": 8080,
@@ -69,7 +69,7 @@
       "module": "custom-jhlite",
       "date": "2024-06-04T14:50:38.415852411Z",
       "properties": {
-        "packageName": "com.mycompany.myapp",
+        "packageName": "tech.jhipster.lite.extension",
         "projectName": "JHipster Sample Application",
         "baseName": "jhipsterSampleApplication",
         "serverPort": 8080,
@@ -84,7 +84,7 @@
       "properties": {
         "endOfLine": "lf",
         "springConfigurationFormat": "yaml",
-        "packageName": "com.mycompany.myapp",
+        "packageName": "tech.jhipster.lite.extension",
         "projectName": "JHipster Sample Application",
         "serverPort": 8080,
         "indentSize": 2,
@@ -97,7 +97,7 @@
       "properties": {
         "endOfLine": "lf",
         "springConfigurationFormat": "yaml",
-        "packageName": "com.mycompany.myapp",
+        "packageName": "tech.jhipster.lite.extension",
         "projectName": "JHipster Sample Application",
         "serverPort": 8080,
         "indentSize": 2,
@@ -110,7 +110,7 @@
       "properties": {
         "endOfLine": "lf",
         "springConfigurationFormat": "yaml",
-        "packageName": "com.mycompany.myapp",
+        "packageName": "tech.jhipster.lite.extension",
         "projectName": "JHipster Sample Application",
         "serverPort": 8080,
         "indentSize": 2,

@@ -1,8 +1,9 @@
 logging:
   level:
-    com:
-      mycompany:
-        myapp: 'OFF'
+    tech:
+      jhipster:
+        lite:
+          extension: 'OFF'
   config: classpath:logback.xml
 spring:
   main:
