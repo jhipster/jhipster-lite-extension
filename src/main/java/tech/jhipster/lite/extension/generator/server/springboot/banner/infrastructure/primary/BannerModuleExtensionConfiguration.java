@@ -1,7 +1,7 @@
 package tech.jhipster.lite.extension.generator.server.springboot.banner.infrastructure.primary;
 
-import static tech.jhipster.lite.extension.shared.slug.domain.JHLiteSampleExtensionFeatureSlug.*;
-import static tech.jhipster.lite.extension.shared.slug.domain.JHLiteSampleExtensionModuleSlug.*;
+import static tech.jhipster.lite.extension.shared.slug.domain.JhliteExtensionSampleFeatureSlug.*;
+import static tech.jhipster.lite.extension.shared.slug.domain.JhliteExtensionSampleModuleSlug.*;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

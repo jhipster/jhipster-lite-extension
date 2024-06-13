@@ -6,7 +6,7 @@
       "properties": {
         "packageName": "tech.jhipster.lite.extension",
         "projectName": "JHLite Extension Sample",
-        "baseName": "jhipsterSampleApplication",
+        "baseName": "jhliteExtensionSample",
         "serverPort": 8080,
         "endOfLine": "lf",
         "indentSize": 2,
@@ -19,7 +19,7 @@
       "properties": {
         "packageName": "tech.jhipster.lite.extension",
         "projectName": "JHLite Extension Sample",
-        "baseName": "jhipsterSampleApplication",
+        "baseName": "jhliteExtensionSample",
         "serverPort": 8080,
         "endOfLine": "lf",
         "indentSize": 2,
@@ -32,7 +32,7 @@
       "properties": {
         "packageName": "tech.jhipster.lite.extension",
         "projectName": "JHLite Extension Sample",
-        "baseName": "jhipsterSampleApplication",
+        "baseName": "jhliteExtensionSample",
         "serverPort": 8080,
         "endOfLine": "lf",
         "indentSize": 2,
@@ -45,7 +45,7 @@
       "properties": {
         "packageName": "tech.jhipster.lite.extension",
         "projectName": "JHLite Extension Sample",
-        "baseName": "jhipsterSampleApplication",
+        "baseName": "jhliteExtensionSample",
         "serverPort": 8080,
         "endOfLine": "lf",
         "indentSize": 2,
@@ -58,7 +58,7 @@
       "properties": {
         "packageName": "tech.jhipster.lite.extension",
         "projectName": "JHLite Extension Sample",
-        "baseName": "jhipsterSampleApplication",
+        "baseName": "jhliteExtensionSample",
         "serverPort": 8080,
         "endOfLine": "lf",
         "indentSize": 2,
@@ -71,7 +71,7 @@
       "properties": {
         "packageName": "tech.jhipster.lite.extension",
         "projectName": "JHLite Extension Sample",
-        "baseName": "jhipsterSampleApplication",
+        "baseName": "jhliteExtensionSample",
         "serverPort": 8080,
         "endOfLine": "lf",
         "indentSize": 2,
@@ -88,7 +88,7 @@
         "projectName": "JHLite Extension Sample",
         "serverPort": 8080,
         "indentSize": 2,
-        "baseName": "jhipsterSampleApplication"
+        "baseName": "jhliteExtensionSample"
       }
     },
     {
@@ -101,7 +101,7 @@
         "projectName": "JHLite Extension Sample",
         "serverPort": 8080,
         "indentSize": 2,
-        "baseName": "jhipsterSampleApplication"
+        "baseName": "jhliteExtensionSample"
       }
     },
     {
@@ -114,7 +114,7 @@
         "projectName": "JHLite Extension Sample",
         "serverPort": 8080,
         "indentSize": 2,
-        "baseName": "jhipsterSampleApplication"
+        "baseName": "jhliteExtensionSample"
       }
     }
   ]

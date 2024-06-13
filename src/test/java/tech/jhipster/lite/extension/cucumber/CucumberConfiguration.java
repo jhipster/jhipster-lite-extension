@@ -19,14 +19,14 @@ import org.springframework.http.converter.StringHttpMessageConverter;
 import org.springframework.test.context.ActiveProfiles;
 import org.springframework.web.client.RestTemplate;
 import tech.jhipster.lite.cucumber.rest.CucumberRestTestContext;
-import tech.jhipster.lite.extension.JhipsterSampleApplicationApp;
+import tech.jhipster.lite.extension.JhliteExtensionSampleApp;
 import tech.jhipster.lite.extension.cucumber.CucumberConfiguration.CucumberRestTemplateConfiguration;
 import tech.jhipster.lite.extension.cucumber.rest.CucumberRestTemplate;
 
 @ActiveProfiles("test")
 @CucumberContextConfiguration
 @SpringBootTest(
-  classes = { JhipsterSampleApplicationApp.class, CucumberRestTemplateConfiguration.class },
+  classes = { JhliteExtensionSampleApp.class, CucumberRestTemplateConfiguration.class },
   webEnvironment = WebEnvironment.RANDOM_PORT
 )
 public class CucumberConfiguration {

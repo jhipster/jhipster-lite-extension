@@ -15,16 +15,16 @@ import org.junit.jupiter.api.Test;
 import tech.jhipster.lite.extension.UnitTest;
 
 @UnitTest
-class JhipsterSampleApplicationCollectionsTest {
+class JhliteExtensionSampleCollectionsTest {
 
   @Nested
   @DisplayName("Collections")
-  class JhipsterSampleApplicationCollectionsCollectionsTest {
+  class JhliteExtensionSampleCollectionsCollectionsTest {
 
     @Test
     void shouldGetEmptyImmutableCollectionFromNullCollection() {
       Collection<Object> input = null;
-      Collection<Object> collection = JhipsterSampleApplicationCollections.immutable(input);
+      Collection<Object> collection = JhliteExtensionSampleCollections.immutable(input);
 
       assertThat(collection).isEmpty();
       assertThatThrownBy(collection::clear).isExactlyInstanceOf(UnsupportedOperationException.class);
@@ -34,7 +34,7 @@ class JhipsterSampleApplicationCollectionsTest {
     void shouldGetImmutableCollectionFromMutableCollection() {
       Collection<String> input = new ArrayList<>();
       input.add("value");
-      Collection<String> collection = JhipsterSampleApplicationCollections.immutable(input);
+      Collection<String> collection = JhliteExtensionSampleCollections.immutable(input);
 
       assertThat(collection).containsExactly("value");
       assertThatThrownBy(collection::clear).isExactlyInstanceOf(UnsupportedOperationException.class);
@@ -43,12 +43,12 @@ class JhipsterSampleApplicationCollectionsTest {
 
   @Nested
   @DisplayName("Set")
-  class JhipsterSampleApplicationCollectionsSetTest {
+  class JhliteExtensionSampleCollectionsSetTest {
 
     @Test
     void shouldGetEmptyImmutableCollectionFromNullCollection() {
       Set<Object> input = null;
-      Set<Object> set = JhipsterSampleApplicationCollections.immutable(input);
+      Set<Object> set = JhliteExtensionSampleCollections.immutable(input);
 
       assertThat(set).isEmpty();
       assertThatThrownBy(set::clear).isExactlyInstanceOf(UnsupportedOperationException.class);
@@ -58,7 +58,7 @@ class JhipsterSampleApplicationCollectionsTest {
     void shouldGetImmutableCollectionFromMutableCollection() {
       Set<String> input = new HashSet<>();
       input.add("value");
-      Set<String> set = JhipsterSampleApplicationCollections.immutable(input);
+      Set<String> set = JhliteExtensionSampleCollections.immutable(input);
 
       assertThat(set).containsExactly("value");
       assertThatThrownBy(set::clear).isExactlyInstanceOf(UnsupportedOperationException.class);
@@ -67,12 +67,12 @@ class JhipsterSampleApplicationCollectionsTest {
 
   @Nested
   @DisplayName("List")
-  class JhipsterSampleApplicationCollectionsListTest {
+  class JhliteExtensionSampleCollectionsListTest {
 
     @Test
     void shouldGetEmptyImmutableCollectionFromNullCollection() {
       List<Object> input = null;
-      List<Object> list = JhipsterSampleApplicationCollections.immutable(input);
+      List<Object> list = JhliteExtensionSampleCollections.immutable(input);
 
       assertThat(list).isEmpty();
       assertThatThrownBy(list::clear).isExactlyInstanceOf(UnsupportedOperationException.class);
@@ -82,7 +82,7 @@ class JhipsterSampleApplicationCollectionsTest {
     void shouldGetImmutableCollectionFromMutableCollection() {
       List<String> input = new ArrayList<>();
       input.add("value");
-      List<String> list = JhipsterSampleApplicationCollections.immutable(input);
+      List<String> list = JhliteExtensionSampleCollections.immutable(input);
 
       assertThat(list).containsExactly("value");
       assertThatThrownBy(list::clear).isExactlyInstanceOf(UnsupportedOperationException.class);
@@ -91,12 +91,12 @@ class JhipsterSampleApplicationCollectionsTest {
 
   @Nested
   @DisplayName("Map")
-  class JhipsterSampleApplicationMapTest {
+  class JhliteExtensionSampleMapTest {
 
     @Test
     void shouldGetEmptyImmutableMapFromNullMap() {
       Map<Object, Object> input = null;
-      Map<Object, Object> map = JhipsterSampleApplicationCollections.immutable(input);
+      Map<Object, Object> map = JhliteExtensionSampleCollections.immutable(input);
 
       assertThat(map).isEmpty();
       assertThatThrownBy(map::clear).isExactlyInstanceOf(UnsupportedOperationException.class);
@@ -106,7 +106,7 @@ class JhipsterSampleApplicationCollectionsTest {
     void shouldGetImmutableMapFromMutableMap() {
       Map<String, String> input = new HashMap<>();
       input.put("key", "value");
-      Map<String, String> map = JhipsterSampleApplicationCollections.immutable(input);
+      Map<String, String> map = JhliteExtensionSampleCollections.immutable(input);
 
       assertThat(map).containsExactly(Map.entry("key", "value"));
       assertThatThrownBy(map::clear).isExactlyInstanceOf(UnsupportedOperationException.class);

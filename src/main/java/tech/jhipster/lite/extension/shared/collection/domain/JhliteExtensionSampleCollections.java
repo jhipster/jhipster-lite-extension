@@ -9,9 +9,9 @@ import java.util.Set;
 /**
  * Null safe utility class to manage collections
  */
-public final class JhipsterSampleApplicationCollections {
+public final class JhliteExtensionSampleCollections {
 
-  private JhipsterSampleApplicationCollections() {}
+  private JhliteExtensionSampleCollections() {}
 
   /**
    * Get an immutable collection from the given collection

@@ -8,14 +8,14 @@ import org.springframework.core.env.Environment;
 import tech.jhipster.lite.JHLiteApp;
 import tech.jhipster.lite.extension.shared.generation.domain.ExcludeFromGeneratedCodeCoverage;
 
-@SpringBootApplication(scanBasePackageClasses = { JHLiteApp.class, JhipsterSampleApplicationApp.class })
+@SpringBootApplication(scanBasePackageClasses = { JHLiteApp.class, JhliteExtensionSampleApp.class })
 @ExcludeFromGeneratedCodeCoverage(reason = "Not testing logs")
-public class JhipsterSampleApplicationApp {
+public class JhliteExtensionSampleApp {
 
-  private static final Logger log = LoggerFactory.getLogger(JhipsterSampleApplicationApp.class);
+  private static final Logger log = LoggerFactory.getLogger(JhliteExtensionSampleApp.class);
 
   public static void main(String[] args) {
-    Environment env = SpringApplication.run(JhipsterSampleApplicationApp.class, args).getEnvironment();
+    Environment env = SpringApplication.run(JhliteExtensionSampleApp.class, args).getEnvironment();
 
     if (log.isInfoEnabled()) {
       log.info(ApplicationStartupTraces.of(env));
