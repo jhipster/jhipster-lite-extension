@@ -1,10 +1,11 @@
-# JHipster Sample Application
+# JHLite Extension Sample
 
 ## Prerequisites
 
 ### Java
 
 You need to have Java 21:
+
 - [JDK 21](https://openjdk.java.net/projects/jdk/21/)
 
 ### Node.js and NPM
@@ -23,15 +24,13 @@ npm install
 
 ## Local environment
 
-
 <!-- jhipster-needle-localEnvironment -->
 
 ## Start up
 
 ```bash
-./mvnw 
+./mvnw
 ```
-
 
 <!-- jhipster-needle-startupCommand -->
 

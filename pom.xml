@@ -10,7 +10,7 @@
   <artifactId>jhipster-sample-application</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   <name>jhipsterSampleApplication</name>
-  <description>JHipster Sample Application</description>
+  <description>JHLite Extension Sample</description>
   <packaging>jar</packaging>
   <dependencyManagement>
     <dependencies>

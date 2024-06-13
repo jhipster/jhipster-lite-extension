@@ -5,7 +5,7 @@
       "date": "2024-06-04T14:50:37.819463965Z",
       "properties": {
         "packageName": "tech.jhipster.lite.extension",
-        "projectName": "JHipster Sample Application",
+        "projectName": "JHLite Extension Sample",
         "baseName": "jhipsterSampleApplication",
         "serverPort": 8080,
         "endOfLine": "lf",
@@ -18,7 +18,7 @@
       "date": "2024-06-04T14:50:37.902634737Z",
       "properties": {
         "packageName": "tech.jhipster.lite.extension",
-        "projectName": "JHipster Sample Application",
+        "projectName": "JHLite Extension Sample",
         "baseName": "jhipsterSampleApplication",
         "serverPort": 8080,
         "endOfLine": "lf",
@@ -31,7 +31,7 @@
       "date": "2024-06-04T14:50:38.009320716Z",
       "properties": {
         "packageName": "tech.jhipster.lite.extension",
-        "projectName": "JHipster Sample Application",
+        "projectName": "JHLite Extension Sample",
         "baseName": "jhipsterSampleApplication",
         "serverPort": 8080,
         "endOfLine": "lf",
@@ -44,7 +44,7 @@
       "date": "2024-06-04T14:50:38.131151735Z",
       "properties": {
         "packageName": "tech.jhipster.lite.extension",
-        "projectName": "JHipster Sample Application",
+        "projectName": "JHLite Extension Sample",
         "baseName": "jhipsterSampleApplication",
         "serverPort": 8080,
         "endOfLine": "lf",
@@ -57,7 +57,7 @@
       "date": "2024-06-04T14:50:38.249816266Z",
       "properties": {
         "packageName": "tech.jhipster.lite.extension",
-        "projectName": "JHipster Sample Application",
+        "projectName": "JHLite Extension Sample",
         "baseName": "jhipsterSampleApplication",
         "serverPort": 8080,
         "endOfLine": "lf",
@@ -70,7 +70,7 @@
       "date": "2024-06-04T14:50:38.415852411Z",
       "properties": {
         "packageName": "tech.jhipster.lite.extension",
-        "projectName": "JHipster Sample Application",
+        "projectName": "JHLite Extension Sample",
         "baseName": "jhipsterSampleApplication",
         "serverPort": 8080,
         "endOfLine": "lf",
@@ -85,7 +85,7 @@
         "endOfLine": "lf",
         "springConfigurationFormat": "yaml",
         "packageName": "tech.jhipster.lite.extension",
-        "projectName": "JHipster Sample Application",
+        "projectName": "JHLite Extension Sample",
         "serverPort": 8080,
         "indentSize": 2,
         "baseName": "jhipsterSampleApplication"
@@ -98,7 +98,7 @@
         "endOfLine": "lf",
         "springConfigurationFormat": "yaml",
         "packageName": "tech.jhipster.lite.extension",
-        "projectName": "JHipster Sample Application",
+        "projectName": "JHLite Extension Sample",
         "serverPort": 8080,
         "indentSize": 2,
         "baseName": "jhipsterSampleApplication"
@@ -111,7 +111,7 @@
         "endOfLine": "lf",
         "springConfigurationFormat": "yaml",
         "packageName": "tech.jhipster.lite.extension",
-        "projectName": "JHipster Sample Application",
+        "projectName": "JHLite Extension Sample",
         "serverPort": 8080,
         "indentSize": 2,
         "baseName": "jhipsterSampleApplication"
