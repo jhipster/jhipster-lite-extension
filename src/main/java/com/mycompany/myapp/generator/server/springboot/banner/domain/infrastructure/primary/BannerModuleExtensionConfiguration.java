@@ -1,7 +1,7 @@
 package com.mycompany.myapp.generator.server.springboot.banner.domain.infrastructure.primary;
 
-import static com.mycompany.myapp.shared.slug.domain.JHLiteExtensionFeatureSlug.*;
 import static com.mycompany.myapp.shared.slug.domain.JHLiteExtensionModuleSlug.*;
+import static com.mycompany.myapp.shared.slug.domain.JHLiteSampleExtensionFeatureSlug.*;
 
 import com.mycompany.myapp.generator.server.springboot.banner.domain.application.BannerApplicationExtensionService;
 import org.springframework.context.annotation.Bean;

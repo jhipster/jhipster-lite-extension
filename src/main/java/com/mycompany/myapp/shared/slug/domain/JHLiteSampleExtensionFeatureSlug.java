@@ -2,12 +2,12 @@ package com.mycompany.myapp.shared.slug.domain;
 
 import tech.jhipster.lite.module.domain.resource.JHipsterFeatureSlugFactory;
 
-public enum JHLiteExtensionFeatureSlug implements JHipsterFeatureSlugFactory {
+public enum JHLiteSampleExtensionFeatureSlug implements JHipsterFeatureSlugFactory {
   BANNER("banner");
 
   private final String slug;
 
-  JHLiteExtensionFeatureSlug(String slug) {
+  JHLiteSampleExtensionFeatureSlug(String slug) {
     this.slug = slug;
   }
 
