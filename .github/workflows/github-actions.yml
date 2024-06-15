@@ -27,6 +27,10 @@ jobs:
           key: ${{ runner.os }}-maven-${{ hashFiles('**/pom.xml') }}
           restore-keys: |
             ${{ runner.os }}-maven-
+      - name: 'Init: install Node.js packages'
+        run: npm ci
+      - name: 'Prettier: check'
+        run: npm run prettier:check
       - name: 'Test: run tests'
         run: |
           chmod +x mvnw
