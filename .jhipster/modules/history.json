@@ -129,6 +129,45 @@
         "indentSize": 2,
         "baseName": "jhliteExtensionSample"
       }
+    },
+    {
+      "module": "checkstyle",
+      "date": "2024-06-16T17:28:24.110912115Z",
+      "properties": {
+        "endOfLine": "lf",
+        "springConfigurationFormat": "yaml",
+        "packageName": "tech.jhipster.lite.extension",
+        "projectName": "JHLite Extension Sample",
+        "serverPort": 8080,
+        "indentSize": 2,
+        "baseName": "jhliteExtensionSample"
+      }
+    },
+    {
+      "module": "application-service-hexagonal-architecture-documentation",
+      "date": "2024-06-16T17:28:39.394470912Z",
+      "properties": {
+        "endOfLine": "lf",
+        "springConfigurationFormat": "yaml",
+        "packageName": "tech.jhipster.lite.extension",
+        "projectName": "JHLite Extension Sample",
+        "serverPort": 8080,
+        "indentSize": 2,
+        "baseName": "jhliteExtensionSample"
+      }
+    },
+    {
+      "module": "jacoco-with-min-coverage-check",
+      "date": "2024-06-16T17:28:40.634225183Z",
+      "properties": {
+        "endOfLine": "lf",
+        "springConfigurationFormat": "yaml",
+        "packageName": "tech.jhipster.lite.extension",
+        "projectName": "JHLite Extension Sample",
+        "serverPort": 8080,
+        "indentSize": 2,
+        "baseName": "jhliteExtensionSample"
+      }
     }
   ]
 }
