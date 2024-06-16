@@ -40,5 +40,6 @@ npm install
 - [Assertions](documentation/assertions.md)
 - [Module creation](documentation/module-creation.md)
 - [Cucumber](documentation/cucumber.md)
+- [Hexagonal architecture](documentation/hexagonal-architecture.md)
 
 <!-- jhipster-needle-documentation -->
