@@ -1,7 +1,6 @@
 package tech.jhipster.lite.extension.shared.slug.domain;
 
 import java.util.Map;
-import java.util.Optional;
 import java.util.function.Function;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
@@ -26,9 +25,5 @@ public enum JhliteExtensionSampleModuleSlug implements JHipsterModuleSlugFactory
   @Override
   public String get() {
     return slug;
-  }
-
-  public static Optional<JhliteExtensionSampleModuleSlug> fromString(String slug) {
-    return Optional.ofNullable(moduleSlugMap.get(slug));
   }
 }
