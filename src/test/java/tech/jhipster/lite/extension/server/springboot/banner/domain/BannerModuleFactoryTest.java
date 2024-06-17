@@ -6,13 +6,13 @@ import static tech.jhipster.lite.module.infrastructure.secondary.JHipsterModules
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 import tech.jhipster.lite.UnitTest;
-import tech.jhipster.lite.extension.generator.server.springboot.banner.domain.BannerModuleExtensionFactory;
+import tech.jhipster.lite.extension.generator.server.springboot.banner.domain.BannerModuleFactory;
 import tech.jhipster.lite.module.domain.JHipsterModule;
 
 @UnitTest
-class BannerModuleExtensionFactoryTest {
+class BannerModuleFactoryTest {
 
-  private static final BannerModuleExtensionFactory factory = new BannerModuleExtensionFactory();
+  private static final BannerModuleFactory factory = new BannerModuleFactory();
   private static final String BANNER_TXT = "src/main/resources/banner.txt";
 
   @Test
