@@ -39,6 +39,7 @@ jobs:
           ./mvnw clean package
       - name: 'Analysis: local Sonar'
         run: |
+          chmod +x tests-ci/sonar.sh
           ./tests-ci/sonar.sh
       - name: 'Test: generate sample app'
         run: |
