@@ -36,7 +36,7 @@ jobs:
       - name: 'Test: run tests'
         run: |
           chmod +x mvnw
-          ./mvnw clean package
+          ./mvnw clean verify -Dsonar.qualitygate.wait=true sonar:sonar
       - name: 'Analysis: local Sonar'
         run: |
           chmod +x tests-ci/sonar.sh
