@@ -168,6 +168,19 @@
         "indentSize": 2,
         "baseName": "jhliteExtensionSample"
       }
+    },
+    {
+      "module": "sonar-qube-java-backend",
+      "date": "2024-06-17T14:26:54.828377279Z",
+      "properties": {
+        "endOfLine": "lf",
+        "springConfigurationFormat": "yaml",
+        "packageName": "tech.jhipster.lite.extension",
+        "projectName": "JHLite Extension Sample",
+        "serverPort": 8080,
+        "indentSize": 2,
+        "baseName": "jhliteExtensionSample"
+      }
     }
   ]
 }
