@@ -97,7 +97,7 @@
     <cucumber.version>7.18.0</cucumber.version>
     <jhlite.version>1.9.0</jhlite.version>
     <maven-checkstyle-plugin.version>3.4.0</maven-checkstyle-plugin.version>
-    <jacoco.version>0.8.11</jacoco.version>
+    <jacoco.version>0.8.12</jacoco.version>
   </properties>
 
   <build>
