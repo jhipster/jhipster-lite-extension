@@ -8,7 +8,7 @@ import tech.jhipster.lite.module.domain.file.JHipsterSource;
 import tech.jhipster.lite.module.domain.properties.JHipsterModuleProperties;
 import tech.jhipster.lite.shared.error.domain.Assert;
 
-public class BannerModuleExtensionFactory {
+public class BannerModuleFactory {
 
   private static final String SOURCE_FOLDER = "server/springboot/banner";
   private static final String PROPERTIES = "properties";
