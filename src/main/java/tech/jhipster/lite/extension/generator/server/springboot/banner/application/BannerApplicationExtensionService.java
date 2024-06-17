@@ -1,17 +1,17 @@
 package tech.jhipster.lite.extension.generator.server.springboot.banner.application;
 
 import org.springframework.stereotype.Service;
-import tech.jhipster.lite.generator.server.springboot.banner.domain.BannerModuleFactory;
+import tech.jhipster.lite.extension.generator.server.springboot.banner.domain.BannerModuleExtensionFactory;
 import tech.jhipster.lite.module.domain.JHipsterModule;
 import tech.jhipster.lite.module.domain.properties.JHipsterModuleProperties;
 
 @Service
 public class BannerApplicationExtensionService {
 
-  private final BannerModuleFactory factory;
+  private final BannerModuleExtensionFactory factory;
 
   public BannerApplicationExtensionService() {
-    this.factory = new BannerModuleFactory();
+    this.factory = new BannerModuleExtensionFactory();
   }
 
   public JHipsterModule buildJHipsterV7Banner(JHipsterModuleProperties properties) {
