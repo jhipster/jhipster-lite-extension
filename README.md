@@ -1,5 +1,7 @@
 # JHLite Extension Sample
 
+[![Build Status][github-actions-jhlextension-image]][github-actions-url]
+
 ## Prerequisites
 
 ### Java
@@ -43,3 +45,6 @@ npm install
 - [Hexagonal architecture](documentation/hexagonal-architecture.md)
 
 <!-- jhipster-needle-documentation -->
+
+[github-actions-jhlextension-image]: https://github.com/jhipster/jhipster-lite-extension/workflows/build/badge.svg
+[github-actions-url]: https://github.com/jhipster/jhipster-lite-extension/actions
