@@ -59,7 +59,7 @@ if [[ $application == 'fullapp' ]]; then
   applyModules \
     "java-base" \
     "spring-boot" \
-    "banner-jhipster-v7-extension" \
+    "banner-jhipster-v7" \
 
 else
   echo "*** Unknown configuration..."
