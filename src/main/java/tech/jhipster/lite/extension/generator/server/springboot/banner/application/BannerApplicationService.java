@@ -6,11 +6,11 @@ import tech.jhipster.lite.module.domain.JHipsterModule;
 import tech.jhipster.lite.module.domain.properties.JHipsterModuleProperties;
 
 @Service
-public class BannerApplicationExtensionService {
+public class BannerApplicationService {
 
   private final BannerModuleFactory factory;
 
-  public BannerApplicationExtensionService() {
+  public BannerApplicationService() {
     this.factory = new BannerModuleFactory();
   }
 

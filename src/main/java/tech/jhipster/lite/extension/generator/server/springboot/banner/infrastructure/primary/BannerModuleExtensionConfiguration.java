@@ -5,7 +5,7 @@ import static tech.jhipster.lite.extension.shared.slug.domain.JhliteExtensionSam
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
-import tech.jhipster.lite.extension.generator.server.springboot.banner.application.BannerApplicationExtensionService;
+import tech.jhipster.lite.extension.generator.server.springboot.banner.application.BannerApplicationService;
 import tech.jhipster.lite.module.domain.resource.JHipsterModuleOrganization;
 import tech.jhipster.lite.module.domain.resource.JHipsterModuleResource;
 
@@ -19,7 +19,7 @@ class BannerModuleExtensionConfiguration {
   private static final String BANNER_TAG = "banner";
 
   @Bean
-  JHipsterModuleResource jhipsterV7BannerExtensionResource(BannerApplicationExtensionService banners) {
+  JHipsterModuleResource jhipsterV7BannerExtensionResource(BannerApplicationService banners) {
     return JHipsterModuleResource.builder()
       .slug(BANNER_JHIPSTER_V7)
       .withoutProperties()
@@ -30,7 +30,7 @@ class BannerModuleExtensionConfiguration {
   }
 
   @Bean
-  JHipsterModuleResource jhipsterV7ReactBannerExtensionResource(BannerApplicationExtensionService banners) {
+  JHipsterModuleResource jhipsterV7ReactBannerExtensionResource(BannerApplicationService banners) {
     return JHipsterModuleResource.builder()
       .slug(BANNER_JHIPSTER_V7_REACT)
       .withoutProperties()
@@ -41,7 +41,7 @@ class BannerModuleExtensionConfiguration {
   }
 
   @Bean
-  JHipsterModuleResource jhipsterV7VueBannerExtensionResource(BannerApplicationExtensionService banners) {
+  JHipsterModuleResource jhipsterV7VueBannerExtensionResource(BannerApplicationService banners) {
     return JHipsterModuleResource.builder()
       .slug(BANNER_JHIPSTER_V7_VUE)
       .withoutProperties()
@@ -52,7 +52,7 @@ class BannerModuleExtensionConfiguration {
   }
 
   @Bean
-  JHipsterModuleResource jhipsterV2BannerExtensionResource(BannerApplicationExtensionService banners) {
+  JHipsterModuleResource jhipsterV2BannerExtensionResource(BannerApplicationService banners) {
     return JHipsterModuleResource.builder()
       .slug(BANNER_JHIPSTER_V2)
       .withoutProperties()
@@ -63,7 +63,7 @@ class BannerModuleExtensionConfiguration {
   }
 
   @Bean
-  JHipsterModuleResource jhipsterV3BannerExtensionResource(BannerApplicationExtensionService banners) {
+  JHipsterModuleResource jhipsterV3BannerExtensionResource(BannerApplicationService banners) {
     return JHipsterModuleResource.builder()
       .slug(BANNER_JHIPSTER_V3)
       .withoutProperties()
