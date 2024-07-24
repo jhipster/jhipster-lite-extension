@@ -57,6 +57,11 @@ jobs:
         run: |
           chmod +x tests-ci/sonar.sh
           ./tests-ci/sonar.sh
+      - name: 'Analysis: SonarCloud'
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} # Needed to get PR information, if any
+          SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
+        run: ./mvnw initialize sonar:sonar -Dsonar.host.url=https://sonarcloud.io -Dsonar.projectKey=jhipster_jhipster-lite-extension -Dsonar.organization=jhipster -Dsonar.login= -Dsonar.password=
       - name: 'Test: generate sample app'
         run: |
           ./tests-ci/start.sh
