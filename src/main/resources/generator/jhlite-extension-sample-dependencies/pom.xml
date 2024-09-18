@@ -14,11 +14,18 @@
 
   <properties>
     <!-- Version slugs of dependencies added by jhipster-lite modules should be declared here -->
+    <spring-boot-startup-report.version>0.2.0</spring-boot-startup-report.version>
   </properties>
 
   <dependencyManagement>
     <dependencies>
       <!-- Dependencies that will be added by jhipster-lite modules should be declared here -->
+      <dependency>
+        <groupId>com.maciejwalkowiak.spring</groupId>
+        <artifactId>spring-boot-startup-report</artifactId>
+        <version>${spring-boot-startup-report.version}</version>
+        <optional>true</optional>
+      </dependency>
     </dependencies>
   </dependencyManagement>
 </project>

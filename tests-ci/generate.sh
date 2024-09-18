@@ -62,6 +62,7 @@ if [[ $application == 'fullapp' ]]; then
     "banner-jhipster-v7" \
     "prettier" \
     "prettier-plugin-properties" \
+    "spring-boot-startup-report" \
 
 else
   echo "*** Unknown configuration..."
