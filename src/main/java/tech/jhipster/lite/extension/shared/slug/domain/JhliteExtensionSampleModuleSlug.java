@@ -7,7 +7,8 @@ public enum JhliteExtensionSampleModuleSlug implements JHipsterModuleSlugFactory
   BANNER_JHIPSTER_V3("banner-jhipster-v3"),
   BANNER_JHIPSTER_V7("banner-jhipster-v7"),
   BANNER_JHIPSTER_V7_REACT("banner-jhipster-v7-react"),
-  BANNER_JHIPSTER_V7_VUE("banner-jhipster-v7-vue");
+  BANNER_JHIPSTER_V7_VUE("banner-jhipster-v7-vue"),
+  PRETTIER_PLUGIN_PROPERTIES("prettier-plugin-properties");
 
   private final String slug;
 
