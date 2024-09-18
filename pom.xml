@@ -78,6 +78,12 @@
       <classifier>tests</classifier>
       <scope>test</scope>
     </dependency>
+    <dependency>
+      <groupId>com.approvaltests</groupId>
+      <artifactId>approvaltests</artifactId>
+      <version>${approvaltests.version}</version>
+      <scope>test</scope>
+    </dependency>
   </dependencies>
 
   <properties>
@@ -95,11 +101,12 @@
     <failsafe-plugin.version>3.5.0</failsafe-plugin.version>
     <spring-boot.version>3.3.3</spring-boot.version>
     <cucumber.version>7.18.1</cucumber.version>
-    <jhlite.version>1.18.1</jhlite.version>
+    <jhlite.version>1.19.0</jhlite.version>
     <maven-checkstyle-plugin.version>3.5.0</maven-checkstyle-plugin.version>
     <jacoco.version>0.8.12</jacoco.version>
     <properties-maven-plugin.version>1.2.1</properties-maven-plugin.version>
     <sonar-maven-plugin.version>4.0.0.4121</sonar-maven-plugin.version>
+    <approvaltests.version>24.4.0</approvaltests.version>
   </properties>
 
   <build>
