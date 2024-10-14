@@ -76,7 +76,7 @@ class BannerModuleConfiguration {
   private JHipsterModuleOrganization organization() {
     return JHipsterModuleOrganization.builder()
       .feature(BANNER)
-      .addDependency(tech.jhipster.lite.generator.slug.domain.JHLiteModuleSlug.SPRING_BOOT)
+      .addDependency(tech.jhipster.lite.shared.slug.domain.JHLiteModuleSlug.SPRING_BOOT)
       .build();
   }
 }
