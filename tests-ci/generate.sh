@@ -60,6 +60,9 @@ if [[ $application == 'fullapp' ]]; then
     "java-base" \
     "spring-boot" \
     "banner-jhipster-v7" \
+    "prettier" \
+    "prettier-plugin-properties" \
+    "spring-boot-startup-report" \
 
 else
   echo "*** Unknown configuration..."
