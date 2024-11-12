@@ -181,6 +181,19 @@
         "indentSize": 2,
         "baseName": "jhliteExtensionSample"
       }
+    },
+    {
+      "module": "prettier",
+      "date": "2024-11-12T20:58:49.459666Z",
+      "properties": {
+        "endOfLine": "lf",
+        "springConfigurationFormat": "yaml",
+        "packageName": "tech.jhipster.lite.extension",
+        "projectName": "JHLite Extension Sample",
+        "serverPort": 8080,
+        "indentSize": 2,
+        "baseName": "jhliteExtensionSample"
+      }
     }
   ]
 }
