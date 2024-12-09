@@ -7,6 +7,7 @@ public enum JhliteExtensionSampleFeatureSlug implements JHipsterFeatureSlugFacto
 
   private final String slug;
 
+  @SuppressWarnings("java:S1144")
   JhliteExtensionSampleFeatureSlug(String slug) {
     this.slug = slug;
   }

@@ -4,7 +4,6 @@ import io.cucumber.java.Before;
 import io.cucumber.spring.CucumberContextConfiguration;
 import java.nio.charset.StandardCharsets;
 import java.util.List;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.boot.test.context.SpringBootTest.WebEnvironment;
 import org.springframework.boot.test.context.TestConfiguration;
@@ -31,8 +30,11 @@ import tech.jhipster.lite.extension.cucumber.rest.CucumberRestTemplate;
 )
 public class CucumberConfiguration {
 
-  @Autowired
-  private TestRestTemplate rest;
+  private final TestRestTemplate rest;
+
+  CucumberConfiguration(TestRestTemplate rest) {
+    this.rest = rest;
+  }
 
   @Before
   public void resetTestContext() {
@@ -46,7 +48,7 @@ public class CucumberConfiguration {
     RestTemplate template = rest.getRestTemplate();
     template.setRequestFactory(requestFactory);
     template.setInterceptors(List.of(saveLastResultInterceptor()));
-    template.getMessageConverters().add(0, new StringHttpMessageConverter(StandardCharsets.UTF_8));
+    template.getMessageConverters().addFirst(new StringHttpMessageConverter(StandardCharsets.UTF_8));
   }
 
   private ClientHttpRequestInterceptor saveLastResultInterceptor() {
@@ -62,11 +64,8 @@ public class CucumberConfiguration {
   @TestConfiguration
   static class CucumberRestTemplateConfiguration {
 
-    @Autowired
-    private TestRestTemplate rest;
-
     @Bean
-    CucumberRestTemplate cucumberRestTemplate() {
+    CucumberRestTemplate cucumberRestTemplate(TestRestTemplate rest) {
       return new CucumberRestTemplate(rest);
     }
   }

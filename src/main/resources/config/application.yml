@@ -12,8 +12,9 @@ logging:
       jhipster:
         lite:
           extension: INFO
-jhlite-hidden-resources:
-  # Disable the modules and its dependencies by slugs
-  slugs: custom-jhlite
+jhlite:
+  hidden-resources:
+    # Disable the modules and its dependencies by slugs
+    slugs: custom-jhlite
 server:
   port: 8080

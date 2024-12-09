@@ -194,6 +194,19 @@
         "indentSize": 2,
         "baseName": "jhliteExtensionSample"
       }
+    },
+    {
+      "module": "custom-jhlite",
+      "date": "2024-12-09T15:09:55.910860780Z",
+      "properties": {
+        "endOfLine": "lf",
+        "springConfigurationFormat": "yaml",
+        "packageName": "tech.jhipster.lite.extension",
+        "projectName": "JHLite Extension Sample",
+        "serverPort": 8080,
+        "indentSize": 2,
+        "baseName": "jhliteExtensionSample"
+      }
     }
   ]
 }
