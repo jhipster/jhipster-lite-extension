@@ -33,12 +33,12 @@ class MyModuleFactoryTest {
   @Test
   void shouldBuildModule() {
     JHipsterModuleProperties properties = JHipsterModulesFixture.propertiesBuilder(TestFileUtils.tmpDirForTest())
-      .basePackage("com.jhipster.test")
+      .basePackage("tech.jhipster.jhlitest")
       .build();
 
     JHipsterModule module = factory.buildModule(properties);
 
-    assertThatModule(module).hasPrefixedFiles("src/main/java/com/jhipster/test/my_package", "Dummy.java");
+    assertThatModule(module).hasPrefixedFiles("src/main/java/tech/jhipster/jhlitest/my_package", "Dummy.java");
   }
 }
 
@@ -207,8 +207,8 @@ In your `JHipsterModuleResource` you can define additional properties and an org
 
 You can hide modules from your custom instance in project configuration with:
 
-- `jhlite-hidden-resources.slugs`: To disable including its dependencies by slugs
-- `jhlite-hidden-resources.tags`: To disable by tags
+- `jhlite.hidden-resources.slugs`: To disable including its dependencies by slugs
+- `jhlite.hidden-resources.tags`: To disable by tags
 
 ## Docker versions
 
