@@ -100,7 +100,7 @@
     <surefire-plugin.version>3.5.2</surefire-plugin.version>
     <failsafe-plugin.version>3.5.2</failsafe-plugin.version>
     <spring-boot.version>3.4.2</spring-boot.version>
-    <cucumber.version>7.20.1</cucumber.version>
+    <cucumber.version>7.21.0</cucumber.version>
     <jhlite.version>1.26.0</jhlite.version>
     <maven-checkstyle-plugin.version>3.6.0</maven-checkstyle-plugin.version>
     <jacoco.version>0.8.12</jacoco.version>
