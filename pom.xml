@@ -99,7 +99,7 @@
     <compiler-plugin.version>3.14.0</compiler-plugin.version>
     <surefire-plugin.version>3.5.2</surefire-plugin.version>
     <failsafe-plugin.version>3.5.2</failsafe-plugin.version>
-    <spring-boot.version>3.4.3</spring-boot.version>
+    <spring-boot.version>3.4.4</spring-boot.version>
     <cucumber.version>7.21.1</cucumber.version>
     <jhlite.version>1.29.1</jhlite.version>
     <maven-checkstyle-plugin.version>3.6.0</maven-checkstyle-plugin.version>
