@@ -244,7 +244,7 @@ class MyJavaDependenciesReader implements JavaDependenciesReader {
 
 ```
 
-Of course you can add any version resolution logic you want in the implementation. You can have a look at [FileSystemJavaDependenciesReader](https://github.com/jhipster/jhipster-lite/blob/main/src/main/java/tech/jhipster/lite/module/infrastructure/secondary/javadependency/FileSystemJavaDependenciesReader.java) for an implementation reading from a local file (managed by dependabot).
+Of course you can add any version resolution logic you want in the implementation. You can have a look at [FileSystemMavenDependenciesReader](https://github.com/jhipster/jhipster-lite/blob/main/src/main/java/tech/jhipster/lite/module/infrastructure/secondary/javadependency/FileSystemMavenDependenciesReader.java) for an implementation reading from a local file (managed by dependabot).
 
 You can add it in your tests using
 
@@ -274,7 +274,7 @@ class MyNpmVersionsReader implements NpmVersionsReader {
 
 ```
 
-Of course you can add any version resolution logic you want in the implementation. You can have a look at [FileSystemNpmVersionReader](https://github.com/jhipster/jhipster-lite/blob/main/src/main/java/tech/jhipster/lite/module/infrastructure/secondary/javadependency/FileSystemJavaDependenciesReader.java) for an implementation reading from a local file (managed by dependabot).
+Of course you can add any version resolution logic you want in the implementation. You can have a look at [FileSystemNpmVersionReader](https://github.com/jhipster/jhipster-lite/blob/main/src/main/java/tech/jhipster/lite/module/infrastructure/secondary/npm/FileSystemNpmVersionReader.java) for an implementation reading from a local file (managed by dependabot).
 
 You can add it in your tests using
 
