@@ -103,7 +103,7 @@
     <cucumber.version>7.21.1</cucumber.version>
     <jhlite.version>1.31.0</jhlite.version>
     <maven-checkstyle-plugin.version>3.6.0</maven-checkstyle-plugin.version>
-    <jacoco.version>0.8.12</jacoco.version>
+    <jacoco.version>0.8.13</jacoco.version>
     <properties-maven-plugin.version>1.2.1</properties-maven-plugin.version>
     <sonar-maven-plugin.version>5.0.0.4389</sonar-maven-plugin.version>
     <approvaltests.version>24.19.0</approvaltests.version>
