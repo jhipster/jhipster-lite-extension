@@ -6,24 +6,24 @@ import org.springframework.core.annotation.Order;
 import org.springframework.stereotype.Repository;
 import tech.jhipster.lite.extension.shared.dependencies.domain.JhliteExtensionSampleNpmVersionSource;
 import tech.jhipster.lite.module.domain.ProjectFiles;
-import tech.jhipster.lite.module.domain.npm.NpmPackagesVersions;
-import tech.jhipster.lite.module.infrastructure.secondary.npm.FileSystemNpmVersionReader;
-import tech.jhipster.lite.module.infrastructure.secondary.npm.NpmVersionsReader;
+import tech.jhipster.lite.module.domain.nodejs.NodePackagesVersions;
+import tech.jhipster.lite.module.infrastructure.secondary.nodejs.FileSystemNodePackagesVersionReader;
+import tech.jhipster.lite.module.infrastructure.secondary.nodejs.NodePackagesVersionsReader;
 
 @Repository
 @Order(Ordered.HIGHEST_PRECEDENCE)
-public class JhliteExtensionSampleNpmVersionReader implements NpmVersionsReader {
+public class JhliteExtensionSampleNpmVersionReader implements NodePackagesVersionsReader {
 
   private static final String PARENT_FOLDER = "/generator/jhlite-extension-sample-dependencies/";
 
-  private final FileSystemNpmVersionReader reader;
+  private final FileSystemNodePackagesVersionReader reader;
 
   public JhliteExtensionSampleNpmVersionReader(ProjectFiles projectFiles) {
-    reader = new FileSystemNpmVersionReader(projectFiles, List.of(JhliteExtensionSampleNpmVersionSource.values()), PARENT_FOLDER);
+    reader = new FileSystemNodePackagesVersionReader(projectFiles, List.of(JhliteExtensionSampleNpmVersionSource.values()), PARENT_FOLDER);
   }
 
   @Override
-  public NpmPackagesVersions get() {
+  public NodePackagesVersions get() {
     return reader.get();
   }
 }
