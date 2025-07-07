@@ -36,13 +36,13 @@ class JhliteExtensionSampleNpmVersionReaderTest {
 
   private void mockProjectFiles() {
     when(projectFiles.readString(anyString())).thenReturn(
-      """
-      {
-        "dependencies": {
-          "vue": "1.2.3"
-        },
-      }
-      """
-    );
+        """
+        {
+          "dependencies": {
+            "vue": "1.2.3"
+          },
+        }
+        """
+      );
   }
 }
