@@ -10,7 +10,6 @@ To mark a package, you have to add a `package-info.java` file at the package roo
 ```java
 @tech.jhipster.lite.extension.SharedKernel
 package tech.jhipster.lite.extension;
-
 ```
 
 or:
@@ -18,5 +17,4 @@ or:
 ```java
 @tech.jhipster.lite.extension.BusinessContext
 package tech.jhipster.lite.extension;
-
 ```

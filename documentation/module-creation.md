@@ -41,7 +41,6 @@ class MyModuleFactoryTest {
     assertThatModule(module).hasPrefixedFiles("src/main/java/tech/jhipster/jhlitest/my_package", "Dummy.java");
   }
 }
-
 ```
 
 A few things to note here:
@@ -69,7 +68,6 @@ public class MyModuleFactory {
     //@formatter:on
   }
 }
-
 ```
 
 This implementation will take a file from `src/main/resources/generator/my-module` and put it in the generated project.
@@ -82,7 +80,6 @@ package tech.jhipster.lite.extension.my_package;
 public class Dummy {
   // ...
 }
-
 ```
 
 Those placeholders will be replaced by properties values during module application.
@@ -143,7 +140,6 @@ class MyModuleModuleConfiguration {
       .factory(myModules::buildModule);
   }
 }
-
 ```
 
 In fact, you don't really have choices here, the `JHipsterModuleResource.builder()` is fluent and will only let you go to the next possible step. The most confusing one may be the last one `.factory(myModules::buildModule)` which is, in fact, a method called to build the module.
@@ -179,7 +175,6 @@ public enum MyAppModuleSlug implements JHipsterModuleSlugFactory {
     return Optional.ofNullable(moduleSlugMap.get(slug));
   }
 }
-
 ```
 
 For this to work, we'll need to add a simple orchestration class in `tech.jhipster.lite.extension.my_module.application`:
@@ -198,7 +193,6 @@ public class MyModuleApplicationService {
     return factory.buildModule(properties);
   }
 }
-
 ```
 
 In your `JHipsterModuleResource` you can define additional properties and an organization to display your module in the landscape (replacing `.standalone()`). Here again, you have a lot of examples to rely on.
@@ -223,7 +217,6 @@ class MyDockerImagesReader implements DockerImagesReader {
     return new DockerImageVersions(List.of(new DockerImageVersion("tomcat", "1.2.3")));
   }
 }
-
 ```
 
 Of course you can add any version resolution logic you want in the implementation. You can have a look at [FileSystemDockerImagesReader](https://github.com/jhipster/jhipster-lite/blob/main/src/main/java/tech/jhipster/lite/module/infrastructure/secondary/docker/FileSystemDockerImagesReader.java) for an implementation reading from a local file (managed by dependabot).
@@ -241,7 +234,6 @@ class MyJavaDependenciesReader implements JavaDependenciesReader {
     return new JavaDependenciesVersions(List.of(new JavaDependencyVersion("json-web-token", "1.2.3")));
   }
 }
-
 ```
 
 Of course you can add any version resolution logic you want in the implementation. You can have a look at [FileSystemMavenDependenciesReader](https://github.com/jhipster/jhipster-lite/blob/main/src/main/java/tech/jhipster/lite/module/infrastructure/secondary/javadependency/FileSystemMavenDependenciesReader.java) for an implementation reading from a local file (managed by dependabot).
@@ -271,7 +263,6 @@ class MyNpmVersionsReader implements NpmVersionsReader {
     return NpmPackagesVersions.builder().put(NpmVersionSource.COMMON, packages(new NpmPackage("vue", "1.2.7"))).build();
   }
 }
-
 ```
 
 Of course you can add any version resolution logic you want in the implementation. You can have a look at [FileSystemNpmVersionReader](https://github.com/jhipster/jhipster-lite/blob/main/src/main/java/tech/jhipster/lite/module/infrastructure/secondary/npm/FileSystemNpmVersionReader.java) for an implementation reading from a local file (managed by dependabot).
