@@ -12,8 +12,8 @@ import org.mockito.Mock;
 import org.mockito.junit.jupiter.MockitoExtension;
 import tech.jhipster.lite.extension.UnitTest;
 import tech.jhipster.lite.module.domain.ProjectFiles;
-import tech.jhipster.lite.module.domain.npm.NpmPackageName;
-import tech.jhipster.lite.module.domain.npm.NpmPackageVersion;
+import tech.jhipster.lite.module.domain.nodejs.NodePackageName;
+import tech.jhipster.lite.module.domain.nodejs.NodePackageVersion;
 
 @UnitTest
 @ExtendWith(MockitoExtension.class)
@@ -29,9 +29,9 @@ class JhliteExtensionSampleNpmVersionReaderTest {
   void shouldGetVersionFromCustomSource() {
     mockProjectFiles();
 
-    NpmPackageVersion version = reader.get().get(new NpmPackageName("vue"), JHLITE_EXTENSION_SAMPLE.build());
+    NodePackageVersion version = reader.get().get(new NodePackageName("vue"), JHLITE_EXTENSION_SAMPLE.build());
 
-    assertThat(version).isEqualTo(new NpmPackageVersion("1.2.3"));
+    assertThat(version).isEqualTo(new NodePackageVersion("1.2.3"));
   }
 
   private void mockProjectFiles() {

@@ -1,9 +1,9 @@
 package tech.jhipster.lite.extension.shared.dependencies.domain;
 
-import tech.jhipster.lite.module.domain.npm.NpmVersionSource;
-import tech.jhipster.lite.module.domain.npm.NpmVersionSourceFactory;
+import tech.jhipster.lite.module.domain.nodejs.NodePackagesVersionSource;
+import tech.jhipster.lite.module.domain.nodejs.NodePackagesVersionSourceFactory;
 
-public enum JhliteExtensionSampleNpmVersionSource implements NpmVersionSourceFactory {
+public enum JhliteExtensionSampleNpmVersionSource implements NodePackagesVersionSourceFactory {
   JHLITE_EXTENSION_SAMPLE("jhlite-extension-sample");
 
   private final String source;
@@ -13,7 +13,7 @@ public enum JhliteExtensionSampleNpmVersionSource implements NpmVersionSourceFac
   }
 
   @Override
-  public NpmVersionSource build() {
-    return new NpmVersionSource(source);
+  public NodePackagesVersionSource build() {
+    return new NodePackagesVersionSource(source);
   }
 }
