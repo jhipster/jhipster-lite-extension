@@ -170,7 +170,7 @@
       }
     },
     {
-      "module": "sonar-qube-java-backend",
+      "module": "sonarqube-java-backend",
       "date": "2024-06-17T14:26:54.828377279Z",
       "properties": {
         "endOfLine": "lf",
